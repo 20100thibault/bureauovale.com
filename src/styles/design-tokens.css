@@ -1,0 +1,88 @@
+:root {
+  /* Presidential palette — Light theme */
+  --background: #f8f8f8;
+  --foreground: #1a1a1a;
+  --surface: #ffffff;
+  --surface-elevated: #ffffff;
+  --surface-glass: rgba(255, 255, 255, 0.7);
+  --surface-glass-border: rgba(255, 255, 255, 0.3);
+
+  --presidential-blue: #1a2a6c;
+  --presidential-gold: #c9a227;
+  --presidential-gold-light: #d4af37;
+  --presidential-cream: #f5f5dc;
+  --presidential-mahogany: #4a2c2a;
+  --presidential-marble: #f8f8f8;
+  --presidential-red: #8b0000;
+
+  --text-primary: #1a1a1a;
+  --text-secondary: #4a4a4a;
+  --text-muted: #8a8a8a;
+  --text-gold: #c9a227;
+  --text-on-dark: #f5f5dc;
+
+  --border-default: rgba(26, 42, 108, 0.1);
+  --border-gold: rgba(201, 162, 39, 0.3);
+  --border-strong: rgba(26, 42, 108, 0.2);
+
+  /* Gold gradients */
+  --gradient-gold: linear-gradient(135deg, #c9a227 0%, #d4af37 50%, #ffd700 100%);
+  --gradient-gold-text: linear-gradient(135deg, #c9a227 0%, #d4af37 40%, #ffd700 70%, #d4af37 100%);
+  --gradient-gold-subtle: linear-gradient(135deg, rgba(201, 162, 39, 0.1) 0%, rgba(212, 175, 55, 0.05) 100%);
+
+  /* Glassmorphism */
+  --glass-blur: 12px;
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.3);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(26, 42, 108, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(26, 42, 108, 0.1), 0 2px 4px -1px rgba(26, 42, 108, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(26, 42, 108, 0.1), 0 4px 6px -2px rgba(26, 42, 108, 0.05);
+  --shadow-gold: 0 4px 14px 0 rgba(201, 162, 39, 0.25);
+
+  /* Transitions */
+  --ease-presidential: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-fast: 200ms;
+  --duration-normal: 400ms;
+  --duration-slow: 800ms;
+
+  /* Spacing */
+  --section-padding-y: clamp(4rem, 10vw, 8rem);
+  --section-padding-x: clamp(1rem, 5vw, 4rem);
+  --content-max-width: 1280px;
+
+  /* Nav */
+  --nav-height: 80px;
+  --nav-height-scrolled: 64px;
+}
+
+.dark {
+  --background: #0d1020;
+  --foreground: #f5f5dc;
+  --surface: #141830;
+  --surface-elevated: #1a2048;
+  --surface-glass: rgba(20, 24, 48, 0.8);
+  --surface-glass-border: rgba(201, 162, 39, 0.15);
+
+  --text-primary: #f5f5dc;
+  --text-secondary: #b8b4a8;
+  --text-muted: #7a7668;
+  --text-gold: #d4af37;
+  --text-on-dark: #f5f5dc;
+
+  --border-default: rgba(201, 162, 39, 0.1);
+  --border-gold: rgba(201, 162, 39, 0.25);
+  --border-strong: rgba(201, 162, 39, 0.2);
+
+  --glass-bg: rgba(20, 24, 48, 0.8);
+  --glass-border: rgba(201, 162, 39, 0.15);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+  --shadow-gold: 0 4px 14px 0 rgba(201, 162, 39, 0.15);
+}
